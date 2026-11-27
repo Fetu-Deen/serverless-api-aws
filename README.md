@@ -1,4 +1,4 @@
-Serverless REST API with API Gateway, Lambda, and DynamoDB
+## Serverless REST API with API Gateway, Lambda, and DynamoDB
 
 A serverless REST API on AWS: **API Gateway** receives a JSON `POST`, a **Lambda** function written in Python validates it and adds an ID and a timestamp, **DynamoDB** stores it, and **CloudWatch** records every invocation. IAM is least-privilege on both sides of the function: on who can invoke it, and on what it can touch.
 
