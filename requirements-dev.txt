@@ -1,0 +1,4 @@
+# Local testing only. The Lambda itself needs nothing extra: boto3 ships with the Python runtime.
+boto3
+moto[dynamodb]>=5.0
+pytest

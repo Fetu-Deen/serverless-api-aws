@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Build artifacts and CLI output
+*.zip
+out.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Secrets and local config
+.env

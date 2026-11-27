@@ -1,0 +1,9 @@
+{
+  "httpMethod": "POST",
+  "path": "/submit",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\"name\": \"Mo\", \"module\": \"AWS\", \"score\": 9.5}",
+  "isBase64Encoded": false
+}
